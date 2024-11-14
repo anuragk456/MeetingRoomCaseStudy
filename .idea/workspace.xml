@@ -5,32 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d1b1a428-e1e3-427d-80ab-1a728c1dc202" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Meeting_Room_Reservation/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Meeting_Room_Reservation/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/HomeController.scala" beforeDir="false" afterPath="$PROJECT_DIR$/Meeting_Room_Reservation/app/controllers/HomeController.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/ReservationController.scala" beforeDir="false" afterPath="$PROJECT_DIR$/Meeting_Room_Reservation/app/controllers/ReservationController.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/Reservation.scala" beforeDir="false" afterPath="$PROJECT_DIR$/Meeting_Room_Reservation/app/models/Reservation.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/Room.scala" beforeDir="false" afterPath="$PROJECT_DIR$/Meeting_Room_Reservation/app/models/Room.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/User.scala" beforeDir="false" afterPath="$PROJECT_DIR$/Meeting_Room_Reservation/app/models/User.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/repositories/ReservationRepository.scala" beforeDir="false" afterPath="$PROJECT_DIR$/Meeting_Room_Reservation/app/repositories/ReservationRepository.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/repositories/RoomRepository.scala" beforeDir="false" afterPath="$PROJECT_DIR$/Meeting_Room_Reservation/app/repositories/RoomRepository.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/repositories/UserRepository.scala" beforeDir="false" afterPath="$PROJECT_DIR$/Meeting_Room_Reservation/app/repositories/UserRepository.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/services/ReservationService.scala" beforeDir="false" afterPath="$PROJECT_DIR$/Meeting_Room_Reservation/app/services/ReservationService.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/services/RoomService.scala" beforeDir="false" afterPath="$PROJECT_DIR$/Meeting_Room_Reservation/app/services/RoomService.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/services/UserService.scala" beforeDir="false" afterPath="$PROJECT_DIR$/Meeting_Room_Reservation/app/services/UserService.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/utils/KafkaProducerUtil.scala" beforeDir="false" afterPath="$PROJECT_DIR$/Meeting_Room_Reservation/app/utils/KafkaProducerUtil.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/index.scala.html" beforeDir="false" afterPath="$PROJECT_DIR$/Meeting_Room_Reservation/app/views/index.scala.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/main.scala.html" beforeDir="false" afterPath="$PROJECT_DIR$/Meeting_Room_Reservation/app/views/main.scala.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/Meeting_Room_Reservation/build.sbt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf/application.conf" beforeDir="false" afterPath="$PROJECT_DIR$/Meeting_Room_Reservation/conf/application.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Meeting_Room_Reservation/conf/logback.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf/routes" beforeDir="false" afterPath="$PROJECT_DIR$/Meeting_Room_Reservation/conf/routes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/build.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Meeting_Room_Reservation/project/build.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/plugins.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/Meeting_Room_Reservation/project/plugins.sbt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/favicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/Meeting_Room_Reservation/public/images/favicon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/javascripts/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/Meeting_Room_Reservation/public/javascripts/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/stylesheets/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/Meeting_Room_Reservation/public/stylesheets/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/controllers/HomeControllerSpec.scala" beforeDir="false" afterPath="$PROJECT_DIR$/Meeting_Room_Reservation/test/controllers/HomeControllerSpec.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,20 +59,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "Development",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/anuragkurmi/Documents/saketh/Meeting_Room_Reservation",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Development&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/anuragkurmi/Documents/saketh/Meeting_Room_Reservation&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Meeting_Room_Reservation" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="scala-play-starter_1811" />
@@ -133,7 +113,7 @@
       <option name="presentableId" value="Default" />
       <updated>1731501088371</updated>
       <workItem from="1731501089692" duration="13701000" />
-      <workItem from="1731573956089" duration="10766000" />
+      <workItem from="1731573956089" duration="11053000" />
     </task>
     <servers />
   </component>
