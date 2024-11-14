@@ -4,6 +4,7 @@ import models.{Reservation, Room}
 import play.api.mvc._
 import services.{ReservationService, RoomService, UserService}
 import play.api.libs.json._
+import utils.KafkaProducerUtil
 
 import javax.inject.{Inject, Singleton}
 import scala.concurrent.{ExecutionContext, Future}
@@ -32,6 +33,9 @@ class ReservationController @Inject()(
           case Some(user) if user.role == "AdminStaff" =>
             reservationService.reserveRoom(reservation).map {
               case Some(savedReservation) =>
+                // Trigger Kafka event after successful reservation creation
+                val reservationData = Json.toJson(savedReservation).toString()
+                KafkaProducerUtil.sendMessage("reservation-created", savedReservation.id.toString, reservationData)
                 Created(Json.toJson(savedReservation))
               case None =>
                 Conflict(Json.obj("error" -> "Room is unavailable for the selected time"))
@@ -67,5 +71,4 @@ class ReservationController @Inject()(
         Future.successful(NotFound(Json.obj("error" -> "Room not found")))
     }
   }
-
 }
