@@ -2,6 +2,7 @@ package services
 
 import models.User
 import repositories.UserRepository
+
 import javax.inject._
 import scala.concurrent.{ExecutionContext, Future}
 

@@ -1,10 +1,11 @@
 package repositories
 
 import models.User
-import javax.inject._
-import scala.concurrent.{ExecutionContext, Future}
 import play.api.db.slick._
 import slick.jdbc.JdbcProfile
+
+import javax.inject._
+import scala.concurrent.{ExecutionContext, Future}
 
 @Singleton
 class UserRepository @Inject()(protected val dbConfigProvider: DatabaseConfigProvider)(implicit ec: ExecutionContext)

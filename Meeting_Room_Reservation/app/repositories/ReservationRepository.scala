@@ -1,10 +1,11 @@
 package repositories
 
 import models.{Reservation, Room}
-import javax.inject._
-import scala.concurrent.{ExecutionContext, Future}
 import play.api.db.slick._
 import slick.jdbc.JdbcProfile
+
+import javax.inject._
+import scala.concurrent.{ExecutionContext, Future}
 
 @Singleton
 class ReservationRepository @Inject()(protected val dbConfigProvider: DatabaseConfigProvider)(implicit ec: ExecutionContext) extends HasDatabaseConfigProvider[JdbcProfile] {

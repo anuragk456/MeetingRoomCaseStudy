@@ -2,6 +2,7 @@ package services
 
 import models.Room
 import repositories.RoomRepository
+
 import javax.inject._
 import scala.concurrent.{ExecutionContext, Future}
 

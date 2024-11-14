@@ -1,7 +1,8 @@
 package services
 
-import models.{Reservation, Room}
+import models.Reservation
 import repositories.{ReservationRepository, RoomRepository}
+
 import javax.inject._
 import scala.concurrent.{ExecutionContext, Future}
 
